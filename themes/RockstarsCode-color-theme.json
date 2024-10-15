@@ -4,7 +4,7 @@
     "colors": {
         "activityBar.background": "#232323",
         "activityBar.foreground": "#ffffff",  // White bold text in the activity bar
-        "activityBarBadge.background": "#ffe000",
+        "activityBarBadge.background": "#ffe000",  // Yellow badge background
         "activityBarBadge.foreground": "#232323",
 
         "activityBar.activeBorder": "#ffe000",  // Yellow active icon border
@@ -33,6 +33,11 @@
         "titleBar.activeForeground": "#000000",  // Black text for high contrast
         "titleBar.inactiveBackground": "#232323",
         "titleBar.inactiveForeground": "#dcdcdc",  // Light gray for inactive state
+
+        "menu.background": "#232323",  // Dark menu background
+        "menu.foreground": "#ffffff",  // White text for menu items
+        "menu.selectionBackground": "#ffe000",  // Black background on hover
+        "menu.selectionForeground": "#000000",  // White text on hover
 
         "terminal.background": "#232323",
         "terminal.foreground": "#ffffff",  // White bold text in the terminal
