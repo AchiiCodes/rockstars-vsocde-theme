@@ -31,8 +31,8 @@
 
         "titleBar.activeBackground": "#ffe000",  // Yellow top menu
         "titleBar.activeForeground": "#000000",  // Black text for high contrast
-        "titleBar.inactiveBackground": "#232323",
-        "titleBar.inactiveForeground": "#dcdcdc",  // Light gray for inactive state
+        "titleBar.inactiveBackground": "#ffe000",
+        "titleBar.inactiveForeground": "#000000",  // Light gray for inactive state
 
         "menu.background": "#232323",  // Dark menu background
         "menu.foreground": "#ffffff",  // White text for menu items
