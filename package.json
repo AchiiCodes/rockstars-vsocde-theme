@@ -1,0 +1,21 @@
+{
+  "name": "team-rockstars-data-theme",
+  "displayName": "team-rockstars-data-theme",
+  "description": "Vscode Theme in the colors of Team Rockstars",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.94.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "RockstarsCode",
+        "uiTheme": "vs-dark",
+        "path": "./themes/RockstarsCode-color-theme.json"
+      }
+    ]
+  }
+}
