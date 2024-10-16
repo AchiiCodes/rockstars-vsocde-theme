@@ -26,6 +26,10 @@
         "sideBar.border": "#3a3a3a",  // Clear divider between sidebar and editor (slightly lighter)
         "editorGroupHeader.tabsBackground": "#2e2e2e",  // Lighter background for tabs area
 
+
+        "statusBar.border": "#000000",
+        // "statusBarItem.remoteBackground": "#ffffff",  // Black background for the button
+        // "statusBarItem.remoteForeground": "#ffe000",  // White icon/text for the button
         "statusBar.background": "#ffe000",  // Yellow bottom bar
         "statusBar.foreground": "#000000",  // Black text for readability
         "statusBar.noFolderBackground": "#ffe000",  // Yellow when no folder is open
@@ -52,9 +56,17 @@
         "tab.inactiveBackground": "#2e2e2e",
         "tab.inactiveForeground": "#a1a1a1",
 
-        "scrollbarSlider.background": "#3a3a3a",
-        "scrollbarSlider.hoverBackground": "#4d4d4d",
-        "scrollbarSlider.activeBackground": "#666666"
+        // "scrollbarSlider.background": "#3a3a3a",
+        // "scrollbarSlider.hoverBackground": "#4d4d4d",
+        // "scrollbarSlider.activeBackground": "#666666"
+
+        "scrollbarSlider.background": "#ffe000",  // Yellow scrollbar background
+        "scrollbarSlider.hoverBackground": "#ffd100",  // Slightly darker yellow on hover
+        "scrollbarSlider.activeBackground": "#ffcc00",  // Darker yellow when active (optional)
+
+        "textLink.foreground": "#ffe000",  // Yellow links
+        "textLink.activeForeground": "#ffd100",  // Slightly darker yellow when the link is active/hovered
+
     },
     "tokenColors": [
         {
