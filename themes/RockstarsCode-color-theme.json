@@ -2,13 +2,17 @@
     "name": "Rockstars",
     "type": "dark",
     "colors": {
+
+        "button.background": "#ffe000", // Yellow button background
+        "button.foreground": "#000000", // White button text
+        "button.hoverBackground": "#ffd100", // Slightly darker yellow on hover
+        "button.border": "#000000", // Optional: Add a white border for more contrast
+
         "activityBar.background": "#232323",
-        "activityBar.foreground": "#ffffff",  // White bold text in the activity bar
+        "activityBar.foreground": "#ffe000",  // yellow bold text in the activity bar
         "activityBarBadge.background": "#ffe000",  // Yellow badge background
         "activityBarBadge.foreground": "#232323",
-
         "activityBar.activeBorder": "#ffe000",  // Yellow active icon border
-        "activityBar.foreground": "#ffe000",  // Yellow icons in the activity bar
 
         "sideBar.background": "#1e1e1e",  // Slightly lighter sidebar background
         "sideBar.foreground": "#ffffff",  // White and bold text in the sidebar
