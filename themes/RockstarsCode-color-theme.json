@@ -115,6 +115,20 @@
                 "foreground": "#ffe000",
                 "fontStyle": "bold"
             }
+        },
+        {
+            "scope": "variable.other",
+            "settings": {
+                "foreground": "#d4d4d4"  // Light gray for object instances and variables
+            }
+        },
+        {
+            "scope": "constant.language",
+            "settings": {
+                "foreground": "#f09030",  // Orange for Python built-in constants
+                "fontStyle": "bold"
+            }
         }
+
     ]
 }
