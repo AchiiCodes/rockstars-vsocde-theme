@@ -2,7 +2,7 @@
   "name": "rockstars-vscode-theme",
   "displayName": "rockstars-vscode-theme",
   "description": "Vscode Theme in the colors of Team Rockstars",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher":  "AchiiCodes",
   "icon": "images/logo.png",
   "repository": {
@@ -25,7 +25,7 @@
       {
         "label": "RockstarsCode",
         "uiTheme": "vs-dark",
-        "path": "./themes/RockstarsCode-color-theme.json"
+        "path": "./themes/rockstars-vscode-theme.json"
       }
     ]
   }
