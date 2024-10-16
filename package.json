@@ -3,11 +3,21 @@
   "displayName": "team-rockstars-data-theme",
   "description": "Vscode Theme in the colors of Team Rockstars",
   "version": "0.0.1",
+  "publisher":  "AchiiCodes",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AchiiCodes/rockstars-vsocde-theme"
+  },
   "engines": {
     "vscode": "^1.94.0"
   },
   "categories": [
     "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "team rockstars",
+    "data Engineer"
   ],
   "contributes": {
     "themes": [
