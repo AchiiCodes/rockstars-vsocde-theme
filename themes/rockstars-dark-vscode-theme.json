@@ -66,6 +66,15 @@
         "textLink.foreground": "#ffe000",  // Yellow links
         "textLink.activeForeground": "#ffd100",  // Slightly darker yellow when the link is active/hovered
 
+        "picker.background": "#ffe000", // Yellow background for the Command Palette
+        "picker.foreground": "#000000", // Black text for the Command Palette
+        "pickerGroup.border": "#000000", // Optional: Add a border color
+        "list.activeSelectionBackground": "#ffe000", // Yellow background for active selection in the list
+        "list.activeSelectionForeground": "#000000", // Black text for active selection
+        "list.inactiveSelectionBackground": "#ffd100", // Slightly darker yellow for inactive selection
+        "list.inactiveSelectionForeground": "#000000" // Black text for inactive selection
+
+
     },
     "tokenColors": [
         {
@@ -76,13 +85,6 @@
             }
         },
         {
-            "scope": ["variable", "meta.object-literal.key"],
-            "settings": {
-                "foreground": "#f0f0f0",  // White text for variables
-                "fontStyle": "bold"
-            }
-        },
-        {
             "scope": "keyword",
             "settings": {
                 "foreground": "#ffe000",  // Yellow keywords
@@ -90,21 +92,28 @@
             }
         },
         {
+            "scope": "keyword.control.import",
+            "settings": {
+                "foreground": "#00cccc",  // Cyan/blue for import statements
+                "fontStyle": "bold"
+            }
+        },
+        {
             "scope": "string",
             "settings": {
-                "foreground": "#d4d4d4"
+                "foreground": "#8fd145"
             }
         },
         {
             "scope": "constant.numeric",
             "settings": {
-                "foreground": "#f0e130"
+                "foreground": "#ffc3ab"
             }
         },
         {
             "scope": "entity.name.function",
             "settings": {
-                "foreground": "#ffe000",
+                "foreground": "#f09030",
                 "fontStyle": "bold"
             }
         },
@@ -116,15 +125,16 @@
             }
         },
         {
-            "scope": "variable.other",
+            "scope": "variable.language",
             "settings": {
-                "foreground": "#d4d4d4"  // Light gray for object instances and variables
+                "foreground": "#ff6699",  // Choose a distinct color for 'self', e.g., pinkish
+                "fontStyle": "bold"
             }
         },
         {
             "scope": "constant.language",
             "settings": {
-                "foreground": "#f09030",  // Orange for Python built-in constants
+                "foreground": "#73ABF5",  // Orange for Python built-in constants
                 "fontStyle": "bold"
             }
         }
