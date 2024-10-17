@@ -18,11 +18,11 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: "18.x"
+          node-version: "20.x"
 
       # Install dependencies (including vsce)
       - name: Install dependencies
-        run: npm install -g vsce
+        run: npm install -g @vscode/vsce
 
       # Package the VS Code extension using vsce
       - name: Package the VS Code extension
