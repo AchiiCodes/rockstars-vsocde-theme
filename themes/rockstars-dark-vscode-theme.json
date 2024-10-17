@@ -1,0 +1,133 @@
+{
+    "name": "Rockstars Dark",
+    "type": "dark",
+    "colors": {
+
+        "button.background": "#ffe000", // Yellow button background
+        "button.foreground": "#000000", // White button text
+        "button.hoverBackground": "#ffd100", // Slightly darker yellow on hover
+        "button.border": "#000000", // Optional: Add a white border for more contrast
+
+        "activityBar.background": "#232323",
+        "activityBar.foreground": "#ffe000",  // yellow bold text in the activity bar
+        "activityBarBadge.background": "#ffe000",  // Yellow badge background
+        "activityBarBadge.foreground": "#232323",
+        "activityBar.activeBorder": "#ffe000",  // Yellow active icon border
+
+        "sideBar.background": "#1e1e1e",  // Slightly lighter sidebar background
+        "sideBar.foreground": "#ffffff",  // White and bold text in the sidebar
+        "sideBarTitle.foreground": "#ffe000",  // Yellow section title
+        "sideBarSectionHeader.background": "#1e1e1e",
+        "sideBarSectionHeader.foreground": "#ffffff",  // White and bold section headers
+
+        "editor.background": "#232323",  // Darker editor background for contrast
+        "editor.foreground": "#ffffff",  // White bold text in the editor
+
+        "sideBar.border": "#3a3a3a",  // Clear divider between sidebar and editor (slightly lighter)
+        "editorGroupHeader.tabsBackground": "#2e2e2e",  // Lighter background for tabs area
+
+
+        "statusBar.border": "#000000",
+        "statusBar.background": "#ffe000",  // Yellow bottom bar
+        "statusBar.foreground": "#000000",  // Black text for readability
+        "statusBar.noFolderBackground": "#ffe000",  // Yellow when no folder is open
+        "statusBar.noFolderForeground": "#000000",
+        "statusBar.debuggingBackground": "#ffe000",  // Yellow during debugging
+        "statusBar.debuggingForeground": "#000000",
+
+        "titleBar.activeBackground": "#1e1e1e",  // Dark shade for active window
+        "titleBar.activeForeground": "#ffe000",  // Yellow text for active window
+        "titleBar.inactiveBackground": "#232323",  // Slightly lighter dark shade for inactive window
+        "titleBar.inactiveForeground": "#ffe000",  // Yellow text for inactive window
+        "titleBar.border": "#ffe000",  // Yellow border for the title bar
+
+        "menu.background": "#232323",  // Dark menu background
+        "menu.foreground": "#ffffff",  // White text for menu items
+        "menu.selectionBackground": "#ffe000",  // Black background on hover
+        "menu.selectionForeground": "#000000",  // White text on hover
+
+        "terminal.background": "#232323",
+        "terminal.foreground": "#ffffff",  // White bold text in the terminal
+        "terminalCursor.foreground": "#ffe000",  // Yellow cursor
+
+        "tab.activeBackground": "#232323",
+        "tab.activeForeground": "#ffffff",  // White and bold text for active tabs
+        "tab.inactiveBackground": "#2e2e2e",
+        "tab.inactiveForeground": "#a1a1a1",
+
+        // "scrollbarSlider.background": "#3a3a3a",
+        // "scrollbarSlider.hoverBackground": "#4d4d4d",
+        // "scrollbarSlider.activeBackground": "#666666"
+
+        "scrollbarSlider.background": "#ffe000",  // Yellow scrollbar background
+        "scrollbarSlider.hoverBackground": "#ffd100",  // Slightly darker yellow on hover
+        "scrollbarSlider.activeBackground": "#ffcc00",  // Darker yellow when active (optional)
+
+        "textLink.foreground": "#ffe000",  // Yellow links
+        "textLink.activeForeground": "#ffd100",  // Slightly darker yellow when the link is active/hovered
+
+    },
+    "tokenColors": [
+        {
+            "scope": ["comment", "punctuation.definition.comment"],
+            "settings": {
+                "foreground": "#888888",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "scope": ["variable", "meta.object-literal.key"],
+            "settings": {
+                "foreground": "#f0f0f0",  // White text for variables
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": "keyword",
+            "settings": {
+                "foreground": "#ffe000",  // Yellow keywords
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": "string",
+            "settings": {
+                "foreground": "#d4d4d4"
+            }
+        },
+        {
+            "scope": "constant.numeric",
+            "settings": {
+                "foreground": "#f0e130"
+            }
+        },
+        {
+            "scope": "entity.name.function",
+            "settings": {
+                "foreground": "#ffe000",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": "storage.type",
+            "settings": {
+                "foreground": "#ffe000",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": "variable.other",
+            "settings": {
+                "foreground": "#d4d4d4"  // Light gray for object instances and variables
+            }
+        },
+        {
+            "scope": "constant.language",
+            "settings": {
+                "foreground": "#f09030",  // Orange for Python built-in constants
+                "fontStyle": "bold"
+            }
+        }
+
+    ]
+}
