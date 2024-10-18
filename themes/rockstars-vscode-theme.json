@@ -68,15 +68,7 @@
         "scrollbarSlider.activeBackground": "#ffcc00",  // Darker yellow when active (optional)
 
         "textLink.foreground": "#ffe000",  // Yellow links
-        "textLink.activeForeground": "#ffd100",  // Slightly darker yellow when the link is active/hovered
-
-        "picker.background": "#ffe000", // Yellow background for the Command Palette
-        "picker.foreground": "#000000", // Black text for the Command Palette
-        "pickerGroup.border": "#000000", // Optional: Add a border color
-        "list.activeSelectionBackground": "#ffe000", // Yellow background for active selection in the list
-        "list.activeSelectionForeground": "#000000", // Black text for active selection
-        "list.inactiveSelectionBackground": "#ffd100", // Slightly darker yellow for inactive selection
-        "list.inactiveSelectionForeground": "#000000" // Black text for inactive selection
+        "textLink.activeForeground": "#ffd100"  // Slightly darker yellow when the link is active/hovered
 
     },
     "tokenColors": [
